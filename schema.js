@@ -1,5 +1,5 @@
 const graphqlTools = require('graphql-tools')
-const Data = require('./node_modules/coinspec-data-tools/data.lib.js').Data
+const Data = require('coinspec-data-tools').Data
 const path = require('path')
 
 const data = new Data(path.join(process.cwd(), '../data'))
